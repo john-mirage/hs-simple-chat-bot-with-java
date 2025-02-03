@@ -48,4 +48,8 @@ public class UserInterface {
             }
         }
     }
+
+    public static void close() {
+        scanner.close();
+    }
 }
