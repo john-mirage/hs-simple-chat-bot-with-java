@@ -9,5 +9,6 @@ public class SimpleBot {
         bot.askForAge();
         bot.askForNumberToCountTo();
         bot.askForQuestion();
+        UserInterface.close();
     }
 }
